@@ -18,7 +18,10 @@ let app = new Vue ({
   equal: function() {
     let equal = this.total;
     return this.total = eval(equal);
-   }         
+   },
+   pourcentage: function()  {
+    this.total = this.total/100
+   }     
  }
 
 })
