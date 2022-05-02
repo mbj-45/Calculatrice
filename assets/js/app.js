@@ -14,7 +14,11 @@ let app = new Vue ({
   },
   clear: function() {
     this.total = 0
-  }
+  },
+  equal: function() {
+    let equal = this.total;
+    return this.total = eval(equal);
+   }         
  }
 
 })
