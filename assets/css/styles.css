@@ -36,7 +36,7 @@ body #keys div {
   font-weight: bold;
   text-align: center;
   line-height: 2em;
-  background: white;
+  background: rgb(238, 238, 238);
   border-radius: 3px;
   box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
   margin: 0 7px 11px 0;
@@ -47,10 +47,10 @@ body #keys div:hover {
   background-color: #D6D6D6;
 }
 body #keys .zero {
-  width: 138px !important;
+  width: 138px ;
 }
 body #keys .clear {
-  background-color: #ffd900 !important;
+  background-color: #ffd900 ;
 }
 
 body {
