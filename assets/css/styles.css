@@ -7,10 +7,10 @@ Google Fonts:
 /***********************************************************************************************/
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: #4894D6;
+  background-color: #dfe1e3;
 }
 body #calWrap {
-  background-color: #77889a;
+  background-color: #000000;
   border-radius: 23px;
   padding: 2em 1em 1em 1em;
   margin: auto;
@@ -27,7 +27,6 @@ body .top input {
   margin: 0 0 14px 0;
   border: 0;
   padding: 0 1em;
-  box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
 }
 body #keys div {
   cursor: pointer;
@@ -38,10 +37,8 @@ body #keys div {
   line-height: 2em;
   background: rgb(238, 238, 238);
   border-radius: 3px;
-  box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
   margin: 0 7px 11px 0;
   float: left;
-  transition: all 0.2s ease;
 }
 body #keys div:hover {
   background-color: #D6D6D6;
@@ -51,6 +48,10 @@ body #keys .zero {
 }
 body #keys .clear {
   background-color: #ffd900 ;
+}
+
+body #keys .btn {
+  background-color: #ffeb7c ;
 }
 
 body {
