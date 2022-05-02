@@ -1,7 +1,8 @@
 let app = new Vue ({
   el: '#app',
   data: {
-    total: 0
+    total: 0,
+    check: ''
   },
  methods: {
   key: function(n) {
@@ -10,8 +11,15 @@ let app = new Vue ({
     }
     else {
       this.total = "" + this.total + n
+      this.check = "" + this.total
     }
   },
+  verif: function(o) {
+    if(this.check !== o) {
+        this.total = "" + this.total + o;
+        this.check = o;
+    }
+},
   clear: function() {
     this.total = 0
   },
