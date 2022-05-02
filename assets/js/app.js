@@ -14,6 +14,9 @@ let app = new Vue ({
       this.check = "" + this.total
     }
   },
+  inverse: function() {
+    this.total = this.total*-1
+  },
   verif: function(o) {
     if(this.check !== o) {
         this.total = "" + this.total + o;
