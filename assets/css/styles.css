@@ -1,0 +1,75 @@
+/* ------------------------------------------------------------------
+Google Fonts:
+------------------------------------------------------------------ */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+/***********************************************************************************************/
+/* =Common Styles */
+/***********************************************************************************************/
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #dfe1e3;
+}
+body #calWrap {
+  background-color: #000000;
+  border-radius: 23px;
+  padding: 2em 1em 1em 1em;
+  margin: auto;
+  width: 292px;
+  clear: both;
+  display: table;
+}
+body .top input {
+  height: 36px;
+  width: 90%;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 4px;
+  margin: 0 0 14px 0;
+  border: 0;
+  padding: 0 1em;
+}
+body #keys div {
+  cursor: pointer;
+  width: 66px;
+  height: 36px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 2em;
+  background: rgb(238, 238, 238);
+  border-radius: 3px;
+  margin: 0 7px 11px 0;
+  float: left;
+}
+body #keys div:hover {
+  background-color: #D6D6D6;
+}
+body #keys .zero {
+  width: 138px ;
+}
+body #keys .clear {
+  background-color: #ffd900 ;
+}
+
+body #keys .btn {
+  background-color: #ffeb7c ;
+}
+
+body {
+	background: linear-gradient(-45deg, #4700D8, #9900F0, #F900BF, #FF85B3);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
